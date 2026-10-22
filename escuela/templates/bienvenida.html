@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WENACOMPITA - Portal Escolar</title>
+{% extends 'base.html' %}
+
+{% block title %}Portal Escolar | Inicio{% endblock %}
+
+{% block estilos %}
     <style>
         * {
             margin: 0;
@@ -12,181 +11,353 @@
         }
 
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
             min-height: 100vh;
             background: linear-gradient(135deg, #0f172a, #1e293b);
+            background-attachment: fixed;
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             color: #ffffff;
-            text-align: center;
-            overflow: hidden;
-            position: relative;
         }
 
-        /* Elementos decorativos de fondo */
-        .glow-circle {
-            position: absolute;
-            width: 300px;
-            height: 300px;
-            background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(0,0,0,0) 70%);
-            border-radius: 50%;
-            top: -100px;
-            left: -100px;
-            z-index: 0;
+        a {
+            text-decoration: none;
         }
 
-        .glow-circle-2 {
-            position: absolute;
-            width: 400px;
-            height: 400px;
-            background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, rgba(0,0,0,0) 70%);
-            border-radius: 50%;
-            bottom: -150px;
-            right: -100px;
-            z-index: 0;
-        }
-
-        .container {
-            position: relative;
-            z-index: 1;
-            padding: 3rem 2rem;
-            background: rgba(30, 41, 59, 0.5);
+        /* ===== Barra superior ===== */
+        .barra {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            padding: 1rem 2rem;
+            background: rgba(15, 23, 42, 0.8);
             backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            border-radius: 24px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-            max-width: 550px;
-            width: 90%;
-            animation: fadeIn 0.8s ease-out forwards;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
 
-        .icon-wrapper {
-            width: 80px;
-            height: 80px;
-            margin: 0 auto 1.5rem auto;
-            background: rgba(139, 92, 246, 0.1);
-            border-radius: 50%;
+        .marca {
             display: flex;
             align-items: center;
-            justify-content: center;
-            color: #8b5cf6;
-            animation: float 3s ease-in-out infinite;
-        }
-
-        .welcome-title {
-            font-size: 2.8rem;
+            gap: 0.6rem;
             font-weight: 800;
-            margin-bottom: 0.5rem;
-            line-height: 1.2;
+            font-size: 1.2rem;
             color: #f8fafc;
         }
 
-        .highlight {
+        .marca svg {
+            color: #8b5cf6;
+        }
+
+        .sesion {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: #94a3b8;
+            font-size: 0.95rem;
+        }
+
+        .sesion form {
+            display: inline;
+        }
+
+        /* ===== Botones ===== */
+        .boton {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            padding: 10px 22px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            font-family: inherit;
+        }
+
+        .boton-primario {
+            color: #ffffff;
+            background: linear-gradient(to right, #6366f1, #8b5cf6);
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+        }
+
+        .boton-primario:hover {
+            color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(99, 102, 241, 0.5);
+        }
+
+        .boton-secundario {
+            color: #e2e8f0;
+            background: transparent;
+            border: 2px solid rgba(148, 163, 184, 0.3);
+        }
+
+        .boton-secundario:hover {
+            color: #ffffff;
+            border-color: #8b5cf6;
+            background: rgba(139, 92, 246, 0.1);
+            transform: translateY(-2px);
+        }
+
+        /* ===== Portada ===== */
+        .portada {
+            text-align: center;
+            padding: 4rem 1.5rem 2.5rem;
+            animation: aparecer 0.8s ease-out;
+        }
+
+        .portada h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 0.75rem;
+        }
+
+        .resaltado {
             background: linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        .welcome-message {
-            font-size: 1.1rem;
+        .portada p {
             color: #94a3b8;
-            margin-bottom: 2.5rem;
+            font-size: 1.1rem;
+            max-width: 620px;
+            margin: 0 auto 2rem;
             line-height: 1.6;
         }
 
-        .button-group {
+        .acciones {
             display: flex;
             gap: 1rem;
             justify-content: center;
             flex-wrap: wrap;
         }
 
-        .btn {
-            display: inline-flex;
+        /* ===== Secciones y tarjetas ===== */
+        .contenido {
+            max-width: 1150px;
+            margin: 0 auto;
+            padding: 0 1.5rem 4rem;
+        }
+
+        .grupo {
+            margin-top: 2.5rem;
+        }
+
+        .grupo h2 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #8b5cf6;
+            margin-bottom: 1rem;
+        }
+
+        .tarjetas {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1rem;
+        }
+
+        .tarjeta {
+            display: flex;
+            flex-direction: column;
+            padding: 1.4rem;
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 18px;
+            transition: all 0.3s ease;
+            animation: aparecer 0.8s ease-out;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-4px);
+            border-color: rgba(139, 92, 246, 0.4);
+            box-shadow: 0 15px 35px -10px rgba(139, 92, 246, 0.35);
+        }
+
+        .tarjeta-cabecera {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+
+        .icono {
+            font-size: 1.6rem;
+            width: 48px;
+            height: 48px;
+            display: flex;
             align-items: center;
             justify-content: center;
-            padding: 14px 32px;
-            font-size: 1rem;
+            background: rgba(139, 92, 246, 0.12);
+            border-radius: 14px;
+        }
+
+        .cantidad {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #f8fafc;
+            text-align: right;
+            line-height: 1;
+        }
+
+        .cantidad small {
+            display: block;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: #64748b;
+            margin-top: 0.25rem;
+        }
+
+        .tarjeta h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #f8fafc;
+            margin-bottom: 0.3rem;
+        }
+
+        .tarjeta p {
+            font-size: 0.9rem;
+            color: #94a3b8;
+            margin-bottom: 1.2rem;
+            flex-grow: 1;
+        }
+
+        .tarjeta-enlaces {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .tarjeta-enlaces a {
+            flex: 1;
+            text-align: center;
+            padding: 8px 0;
+            font-size: 0.85rem;
             font-weight: 600;
-            text-decoration: none;
-            border-radius: 50px;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            border: none;
+            border-radius: 10px;
+            transition: all 0.2s ease;
         }
 
-        .btn-primary {
+        .enlace-admin {
             color: #ffffff;
-            background: linear-gradient(to right, #6366f1, #8b5cf6);
-            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+            background: rgba(99, 102, 241, 0.85);
         }
 
-        .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(99, 102, 241, 0.5);
-            background: linear-gradient(to right, #4f46e5, #7c3aed);
+        .enlace-admin:hover {
+            color: #ffffff;
+            background: #6366f1;
         }
 
-        .btn-secondary {
-            color: #e2e8f0;
-            background: transparent;
-            border: 2px solid rgba(148, 163, 184, 0.3);
+        .enlace-api {
+            color: #cbd5e1;
+            border: 1px solid rgba(148, 163, 184, 0.3);
         }
 
-        .btn-secondary:hover {
+        .enlace-api:hover {
+            color: #ffffff;
             border-color: #8b5cf6;
-            color: #ffffff;
-            background: rgba(139, 92, 246, 0.1);
-            transform: translateY(-3px);
         }
 
-        /* Animaciones */
-        @keyframes fadeIn {
+        /* ===== Pie ===== */
+        .pie {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: #64748b;
+            font-size: 0.85rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        @keyframes aparecer {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0px); }
-        }
-
-        /* Diseño responsivo */
         @media (max-width: 600px) {
-            .welcome-title { font-size: 2.2rem; }
-            .welcome-message { font-size: 1rem; }
-            .button-group { flex-direction: column; width: 100%; }
-            .btn { width: 100%; }
-            .container { padding: 2.5rem 1.5rem; }
+            .barra { padding: 1rem; }
+            .portada h1 { font-size: 2rem; }
+            .portada p { font-size: 1rem; }
+            .acciones { flex-direction: column; }
+            .acciones .boton { width: 100%; }
         }
     </style>
-</head>
-<body>
+{% endblock %}
 
-    <!-- Luces de fondo -->
-    <div class="glow-circle"></div>
-    <div class="glow-circle-2"></div>
-
-    <div class="container">
-        <!-- Icono de birrete académico -->
-        <div class="icon-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+{% block content %}
+    <!-- Barra superior -->
+    <header class="barra">
+        <a href="{% url 'bienvenida' %}" class="marca">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
                 <path d="M6 12v5c3 3 9 3 12 0v-5"/>
             </svg>
+            Portal Escolar
+        </a>
+
+        <div class="sesion">
+            {% if user.is_authenticated %}
+                <span>Hola, <strong>{{ user.get_full_name|default:user.username }}</strong></span>
+                <!-- En Django 5+ cerrar sesión debe hacerse con POST -->
+                <form method="post" action="{% url 'admin:logout' %}">
+                    {% csrf_token %}
+                    <button type="submit" class="boton boton-secundario">Cerrar sesión</button>
+                </form>
+            {% else %}
+                <a href="{% url 'admin:login' %}?next=/" class="boton boton-primario">Iniciar sesión</a>
+            {% endif %}
         </div>
+    </header>
 
-        <h1 class="welcome-title">ESCUELA DEL <span class="highlight">SWAGSWAGSWAG</span></h1>
-
-        
-        <div class="button-group">
-            <a href="/login" class="btn btn-primary">ENTRA A LA SESH</a>
-            <a href="/registro" class="btn btn-secondary">CENTRO DE SWAGLUMNOS</a>
+    <!-- Portada -->
+    <section class="portada">
+        <h1>Gestión <span class="resaltado">Escolar</span></h1>
+        <p>
+            Administra alumnos, docentes, cursos, calificaciones y asistencia
+            desde un solo lugar. Usa el <strong>Panel</strong> para gestionar los datos
+            con formularios, o la <strong>API</strong> para consultarlos en formato JSON.
+        </p>
+        <div class="acciones">
+            <a href="{% url 'admin:index' %}" class="boton boton-primario">⚙️ Panel de administración</a>
+            <a href="/escuela/" class="boton boton-secundario">🔗 Explorar la API</a>
         </div>
-    </div>
+    </section>
 
-</body>
-</html>
+    <!-- Secciones del sistema -->
+    <main class="contenido">
+        {% for grupo in grupos %}
+            <section class="grupo">
+                <h2>{{ grupo.titulo }}</h2>
+                <div class="tarjetas">
+                    {% for tarjeta in grupo.tarjetas %}
+                        <article class="tarjeta">
+                            <div class="tarjeta-cabecera">
+                                <span class="icono">{{ tarjeta.icono }}</span>
+                                <span class="cantidad">
+                                    {{ tarjeta.cantidad }}
+                                    <small>registro{{ tarjeta.cantidad|pluralize }}</small>
+                                </span>
+                            </div>
+                            <h3>{{ tarjeta.titulo }}</h3>
+                            <p>{{ tarjeta.descripcion }}</p>
+                            <div class="tarjeta-enlaces">
+                                <a href="{{ tarjeta.url_admin }}" class="enlace-admin">Gestionar</a>
+                                <a href="{{ tarjeta.url_api }}" class="enlace-api">API</a>
+                            </div>
+                        </article>
+                    {% endfor %}
+                </div>
+            </section>
+        {% endfor %}
+    </main>
+
+    <footer class="pie">
+        Proyecto de Backend · Gestión Escolar con Django y Django Rest Framework
+    </footer>
+{% endblock %}

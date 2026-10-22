@@ -1,0 +1,18 @@
+# Entornos virtuales
+.venv*/
+venv/
+env/
+
+# Datos sensibles (NUNCA subir)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Base de datos local y archivos estáticos recolectados
+db.sqlite3
+staticfiles/
+
+# Editor
+.vscode/

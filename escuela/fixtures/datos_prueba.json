@@ -1,0 +1,4866 @@
+[
+    {
+        "model": "escuela.usuario",
+        "pk": 101,
+        "fields": {
+            "username": "perro.thisisfine",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Perro",
+            "last_name": "This Is Fine",
+            "email": "perro.thisisfine@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ADMIN",
+            "rut": "23.929.011-6",
+            "telefono": "+56925988000",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 102,
+        "fields": {
+            "username": "harold.dolor",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Harold",
+            "last_name": "Ocultando el Dolor",
+            "email": "harold.dolor@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "DOCENTE",
+            "rut": "24.066.922-6",
+            "telefono": "+56952880483",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.docente",
+        "pk": 1,
+        "fields": {
+            "usuario": 102,
+            "especialidad": "Matemáticas",
+            "fecha_contratacion": "2015-03-01",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 103,
+        "fields": {
+            "username": "gato.grumpy",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Grumpy",
+            "last_name": "Cat",
+            "email": "gato.grumpy@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "DOCENTE",
+            "rut": "24.204.833-4",
+            "telefono": "+56977446522",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.docente",
+        "pk": 2,
+        "fields": {
+            "usuario": 103,
+            "especialidad": "Lenguaje y Comunicación",
+            "fecha_contratacion": "2018-03-01",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 104,
+        "fields": {
+            "username": "chad.gigachad",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Chad",
+            "last_name": "Gigachad",
+            "email": "chad.gigachad@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "DOCENTE",
+            "rut": "24.342.744-4",
+            "telefono": "+56978695681",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.docente",
+        "pk": 3,
+        "fields": {
+            "usuario": 104,
+            "especialidad": "Educación Física",
+            "fecha_contratacion": "2020-03-01",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 105,
+        "fields": {
+            "username": "meme.stonks",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Meme Man",
+            "last_name": "Stonks",
+            "email": "meme.stonks@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "DOCENTE",
+            "rut": "24.480.655-4",
+            "telefono": "+56996865468",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.docente",
+        "pk": 4,
+        "fields": {
+            "usuario": 105,
+            "especialidad": "Historia y Economía",
+            "fecha_contratacion": "2019-08-01",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 106,
+        "fields": {
+            "username": "shrek.ogro",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Shrek",
+            "last_name": "Del Pantano",
+            "email": "shrek.ogro@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "DOCENTE",
+            "rut": "24.618.566-2",
+            "telefono": "+56923775684",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.docente",
+        "pk": 5,
+        "fields": {
+            "usuario": 106,
+            "especialidad": "Ciencias Naturales",
+            "fecha_contratacion": "2017-03-01",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 107,
+        "fields": {
+            "username": "doge.shiba",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Doge",
+            "last_name": "Shiba Inu",
+            "email": "doge.shiba@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "24.756.477-2",
+            "telefono": "+56939968745",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 1,
+        "fields": {
+            "usuario": 107,
+            "fecha_nacimiento": "2013-07-23",
+            "apoderado": "Kabosu Shiba",
+            "info_medica": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 108,
+        "fields": {
+            "username": "cheems.bonk",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Cheems",
+            "last_name": "Bonk",
+            "email": "cheems.bonk@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "24.894.388-2",
+            "telefono": "+56966453983",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 2,
+        "fields": {
+            "usuario": 108,
+            "fecha_nacimiento": "2013-08-09",
+            "apoderado": "Balltze Bonk",
+            "info_medica": "Alergia a las hamburguesas",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 109,
+        "fields": {
+            "username": "pepe.rana",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Pepe",
+            "last_name": "The Frog",
+            "email": "pepe.rana@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "25.032.299-2",
+            "telefono": "+56983526008",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 3,
+        "fields": {
+            "usuario": 109,
+            "fecha_nacimiento": "2013-05-17",
+            "apoderado": "Mamá Rana",
+            "info_medica": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 110,
+        "fields": {
+            "username": "wojak.feels",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Wojak",
+            "last_name": "Feels Guy",
+            "email": "wojak.feels@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "25.170.210-1",
+            "telefono": "+56988721495",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 4,
+        "fields": {
+            "usuario": 110,
+            "fecha_nacimiento": "2013-03-27",
+            "apoderado": "Papá Wojak",
+            "info_medica": "Ansiedad en pruebas",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 111,
+        "fields": {
+            "username": "nyan.cat",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Nyan",
+            "last_name": "Cat Arcoíris",
+            "email": "nyan.cat@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "25.308.121-K",
+            "telefono": "+56942203407",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 5,
+        "fields": {
+            "usuario": 111,
+            "fecha_nacimiento": "2012-01-03",
+            "apoderado": "Pop Tart Cat",
+            "info_medica": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 112,
+        "fields": {
+            "username": "troll.face",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Trollface",
+            "last_name": "Problem",
+            "email": "troll.face@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "25.446.032-K",
+            "telefono": "+56992437103",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 6,
+        "fields": {
+            "usuario": 112,
+            "fecha_nacimiento": "2012-03-23",
+            "apoderado": "U Mad Bro",
+            "info_medica": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 113,
+        "fields": {
+            "username": "big.chungus",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Big",
+            "last_name": "Chungus",
+            "email": "big.chungus@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "25.583.943-8",
+            "telefono": "+56924862807",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 7,
+        "fields": {
+            "usuario": 113,
+            "fecha_nacimiento": "2012-10-21",
+            "apoderado": "Bugs Chungus",
+            "info_medica": "Intolerancia a la lactosa",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 114,
+        "fields": {
+            "username": "brian.badluck",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Brian",
+            "last_name": "Bad Luck",
+            "email": "brian.badluck@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "25.721.854-6",
+            "telefono": "+56923160265",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 8,
+        "fields": {
+            "usuario": 114,
+            "fecha_nacimiento": "2013-04-05",
+            "apoderado": "Mamá de Brian",
+            "info_medica": "Asma",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 115,
+        "fields": {
+            "username": "success.kid",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Success",
+            "last_name": "Kid",
+            "email": "success.kid@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "25.859.765-6",
+            "telefono": "+56911542004",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 9,
+        "fields": {
+            "usuario": 115,
+            "fecha_nacimiento": "2013-05-17",
+            "apoderado": "Papá Exitoso",
+            "info_medica": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 116,
+        "fields": {
+            "username": "karen.gerente",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Karen",
+            "last_name": "Quiero al Gerente",
+            "email": "karen.gerente@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "25.997.676-6",
+            "telefono": "+56952175656",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 10,
+        "fields": {
+            "usuario": 116,
+            "fecha_nacimiento": "2012-08-03",
+            "apoderado": "Karen Senior",
+            "info_medica": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 117,
+        "fields": {
+            "username": "rick.roll",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Rick",
+            "last_name": "Never Gonna Give You Up",
+            "email": "rick.roll@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "26.135.587-6",
+            "telefono": "+56963313617",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 11,
+        "fields": {
+            "usuario": 117,
+            "fecha_nacimiento": "2012-09-14",
+            "apoderado": "Astley Roll",
+            "info_medica": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.usuario",
+        "pk": 118,
+        "fields": {
+            "username": "ugandan.knuckles",
+            "password": "pbkdf2_sha256$1500000$zfYilCpztAobs9NGKl1CCY$MJcLzw3ib009yLldd5DvnyyKQyH1VaDdmRW1wkHZVHw=",
+            "first_name": "Ugandan",
+            "last_name": "Knuckles",
+            "email": "ugandan.knuckles@escuela.cl",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2026-03-01T08:00:00-03:00",
+            "rol": "ALUMNO",
+            "rut": "26.273.498-6",
+            "telefono": "+56956661846",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.alumno",
+        "pk": 12,
+        "fields": {
+            "usuario": 118,
+            "fecha_nacimiento": "2012-12-31",
+            "apoderado": "Da Queen",
+            "info_medica": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.periodoacademico",
+        "pk": 1,
+        "fields": {
+            "anio": 2026,
+            "semestre": 1,
+            "activo": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.periodoacademico",
+        "pk": 2,
+        "fields": {
+            "anio": 2026,
+            "semestre": 2,
+            "activo": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asignatura",
+        "pk": 1,
+        "fields": {
+            "codigo": "MAT-101",
+            "nombre": "Matemáticas",
+            "descripcion": "Álgebra, geometría y cómo calcular cuánto falta para el recreo.",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asignatura",
+        "pk": 2,
+        "fields": {
+            "codigo": "LEN-101",
+            "nombre": "Lenguaje y Comunicación",
+            "descripcion": "Comprensión lectora y redacción sin abreviar \"xd\".",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asignatura",
+        "pk": 3,
+        "fields": {
+            "codigo": "EFI-101",
+            "nombre": "Educación Física",
+            "descripcion": "Deporte, vida sana y la postura Gigachad.",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asignatura",
+        "pk": 4,
+        "fields": {
+            "codigo": "HIS-101",
+            "nombre": "Historia y Economía",
+            "descripcion": "Historia de Chile y por qué las acciones suben (stonks).",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asignatura",
+        "pk": 5,
+        "fields": {
+            "codigo": "CIE-101",
+            "nombre": "Ciencias Naturales",
+            "descripcion": "Biología, ecosistemas y la vida en el pantano.",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.curso",
+        "pk": 1,
+        "fields": {
+            "nombre": "7° Básico A",
+            "periodo": 2,
+            "docente_jefe": 1,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.curso",
+        "pk": 2,
+        "fields": {
+            "nombre": "7° Básico B",
+            "periodo": 2,
+            "docente_jefe": 2,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.clase",
+        "pk": 1,
+        "fields": {
+            "curso": 1,
+            "asignatura": 1,
+            "docente": 1,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.clase",
+        "pk": 2,
+        "fields": {
+            "curso": 1,
+            "asignatura": 2,
+            "docente": 2,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.clase",
+        "pk": 3,
+        "fields": {
+            "curso": 1,
+            "asignatura": 3,
+            "docente": 3,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.clase",
+        "pk": 4,
+        "fields": {
+            "curso": 1,
+            "asignatura": 4,
+            "docente": 4,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.clase",
+        "pk": 5,
+        "fields": {
+            "curso": 1,
+            "asignatura": 5,
+            "docente": 5,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.clase",
+        "pk": 6,
+        "fields": {
+            "curso": 2,
+            "asignatura": 1,
+            "docente": 1,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.clase",
+        "pk": 7,
+        "fields": {
+            "curso": 2,
+            "asignatura": 2,
+            "docente": 2,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.clase",
+        "pk": 8,
+        "fields": {
+            "curso": 2,
+            "asignatura": 3,
+            "docente": 3,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.clase",
+        "pk": 9,
+        "fields": {
+            "curso": 2,
+            "asignatura": 4,
+            "docente": 4,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.clase",
+        "pk": 10,
+        "fields": {
+            "curso": 2,
+            "asignatura": 5,
+            "docente": 5,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 1,
+        "fields": {
+            "alumno": 1,
+            "curso": 1,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 2,
+        "fields": {
+            "alumno": 2,
+            "curso": 1,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 3,
+        "fields": {
+            "alumno": 3,
+            "curso": 1,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 4,
+        "fields": {
+            "alumno": 4,
+            "curso": 1,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 5,
+        "fields": {
+            "alumno": 5,
+            "curso": 1,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 6,
+        "fields": {
+            "alumno": 6,
+            "curso": 1,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 7,
+        "fields": {
+            "alumno": 7,
+            "curso": 2,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 8,
+        "fields": {
+            "alumno": 8,
+            "curso": 2,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 9,
+        "fields": {
+            "alumno": 9,
+            "curso": 2,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 10,
+        "fields": {
+            "alumno": 10,
+            "curso": 2,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 11,
+        "fields": {
+            "alumno": 11,
+            "curso": 2,
+            "estado": "ACTIVA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.matricula",
+        "pk": 12,
+        "fields": {
+            "alumno": 12,
+            "curso": 2,
+            "estado": "RETIRADA",
+            "fecha_inscripcion": "2026-07-20",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 1,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "nota": "6.7",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 2,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "nota": "6.0",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 3,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "nota": "5.6",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 4,
+        "fields": {
+            "clase": 2,
+            "alumno": 1,
+            "nota": "6.6",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 5,
+        "fields": {
+            "clase": 2,
+            "alumno": 1,
+            "nota": "4.8",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 6,
+        "fields": {
+            "clase": 2,
+            "alumno": 1,
+            "nota": "6.3",
+            "ponderacion": "40.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 7,
+        "fields": {
+            "clase": 3,
+            "alumno": 1,
+            "nota": "5.9",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 8,
+        "fields": {
+            "clase": 3,
+            "alumno": 1,
+            "nota": "5.9",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 9,
+        "fields": {
+            "clase": 3,
+            "alumno": 1,
+            "nota": "5.6",
+            "ponderacion": "40.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 10,
+        "fields": {
+            "clase": 4,
+            "alumno": 1,
+            "nota": "6.5",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 11,
+        "fields": {
+            "clase": 4,
+            "alumno": 1,
+            "nota": "4.9",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 12,
+        "fields": {
+            "clase": 4,
+            "alumno": 1,
+            "nota": "5.6",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 13,
+        "fields": {
+            "clase": 5,
+            "alumno": 1,
+            "nota": "6.4",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 14,
+        "fields": {
+            "clase": 5,
+            "alumno": 1,
+            "nota": "4.9",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 15,
+        "fields": {
+            "clase": 5,
+            "alumno": 1,
+            "nota": "6.4",
+            "ponderacion": "40.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 16,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "nota": "5.4",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 17,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "nota": "4.6",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 18,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "nota": "5.6",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 19,
+        "fields": {
+            "clase": 2,
+            "alumno": 2,
+            "nota": "5.8",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 20,
+        "fields": {
+            "clase": 2,
+            "alumno": 2,
+            "nota": "4.5",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 21,
+        "fields": {
+            "clase": 2,
+            "alumno": 2,
+            "nota": "5.9",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 22,
+        "fields": {
+            "clase": 3,
+            "alumno": 2,
+            "nota": "5.5",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 23,
+        "fields": {
+            "clase": 3,
+            "alumno": 2,
+            "nota": "5.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 24,
+        "fields": {
+            "clase": 3,
+            "alumno": 2,
+            "nota": "5.8",
+            "ponderacion": "40.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 25,
+        "fields": {
+            "clase": 4,
+            "alumno": 2,
+            "nota": "6.3",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 26,
+        "fields": {
+            "clase": 4,
+            "alumno": 2,
+            "nota": "5.1",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 27,
+        "fields": {
+            "clase": 4,
+            "alumno": 2,
+            "nota": "4.3",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 28,
+        "fields": {
+            "clase": 5,
+            "alumno": 2,
+            "nota": "5.9",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 29,
+        "fields": {
+            "clase": 5,
+            "alumno": 2,
+            "nota": "4.8",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 30,
+        "fields": {
+            "clase": 5,
+            "alumno": 2,
+            "nota": "5.3",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 31,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "nota": "5.3",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 32,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "nota": "6.0",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 33,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "nota": "6.3",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 34,
+        "fields": {
+            "clase": 2,
+            "alumno": 3,
+            "nota": "7.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 35,
+        "fields": {
+            "clase": 2,
+            "alumno": 3,
+            "nota": "6.7",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 36,
+        "fields": {
+            "clase": 2,
+            "alumno": 3,
+            "nota": "7.0",
+            "ponderacion": "40.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 37,
+        "fields": {
+            "clase": 3,
+            "alumno": 3,
+            "nota": "5.3",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 38,
+        "fields": {
+            "clase": 3,
+            "alumno": 3,
+            "nota": "5.9",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 39,
+        "fields": {
+            "clase": 3,
+            "alumno": 3,
+            "nota": "5.8",
+            "ponderacion": "40.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 40,
+        "fields": {
+            "clase": 4,
+            "alumno": 3,
+            "nota": "5.4",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 41,
+        "fields": {
+            "clase": 4,
+            "alumno": 3,
+            "nota": "5.4",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 42,
+        "fields": {
+            "clase": 4,
+            "alumno": 3,
+            "nota": "6.0",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 43,
+        "fields": {
+            "clase": 5,
+            "alumno": 3,
+            "nota": "6.3",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 44,
+        "fields": {
+            "clase": 5,
+            "alumno": 3,
+            "nota": "5.5",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 45,
+        "fields": {
+            "clase": 5,
+            "alumno": 3,
+            "nota": "5.1",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 46,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "nota": "5.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 47,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "nota": "5.7",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 48,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "nota": "4.4",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 49,
+        "fields": {
+            "clase": 2,
+            "alumno": 4,
+            "nota": "3.8",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 50,
+        "fields": {
+            "clase": 2,
+            "alumno": 4,
+            "nota": "3.6",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 51,
+        "fields": {
+            "clase": 2,
+            "alumno": 4,
+            "nota": "5.0",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 52,
+        "fields": {
+            "clase": 3,
+            "alumno": 4,
+            "nota": "5.7",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 53,
+        "fields": {
+            "clase": 3,
+            "alumno": 4,
+            "nota": "4.8",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 54,
+        "fields": {
+            "clase": 3,
+            "alumno": 4,
+            "nota": "4.5",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 55,
+        "fields": {
+            "clase": 4,
+            "alumno": 4,
+            "nota": "3.5",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 56,
+        "fields": {
+            "clase": 4,
+            "alumno": 4,
+            "nota": "4.3",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 57,
+        "fields": {
+            "clase": 4,
+            "alumno": 4,
+            "nota": "4.7",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 58,
+        "fields": {
+            "clase": 5,
+            "alumno": 4,
+            "nota": "4.9",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 59,
+        "fields": {
+            "clase": 5,
+            "alumno": 4,
+            "nota": "4.1",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 60,
+        "fields": {
+            "clase": 5,
+            "alumno": 4,
+            "nota": "4.5",
+            "ponderacion": "40.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 61,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "nota": "6.2",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 62,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "nota": "5.4",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 63,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "nota": "6.4",
+            "ponderacion": "40.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 64,
+        "fields": {
+            "clase": 2,
+            "alumno": 5,
+            "nota": "4.8",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 65,
+        "fields": {
+            "clase": 2,
+            "alumno": 5,
+            "nota": "6.0",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 66,
+        "fields": {
+            "clase": 2,
+            "alumno": 5,
+            "nota": "5.0",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 67,
+        "fields": {
+            "clase": 3,
+            "alumno": 5,
+            "nota": "5.9",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 68,
+        "fields": {
+            "clase": 3,
+            "alumno": 5,
+            "nota": "5.9",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 69,
+        "fields": {
+            "clase": 3,
+            "alumno": 5,
+            "nota": "5.2",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 70,
+        "fields": {
+            "clase": 4,
+            "alumno": 5,
+            "nota": "5.9",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 71,
+        "fields": {
+            "clase": 4,
+            "alumno": 5,
+            "nota": "5.6",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 72,
+        "fields": {
+            "clase": 4,
+            "alumno": 5,
+            "nota": "4.0",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 73,
+        "fields": {
+            "clase": 5,
+            "alumno": 5,
+            "nota": "4.4",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 74,
+        "fields": {
+            "clase": 5,
+            "alumno": 5,
+            "nota": "5.9",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 75,
+        "fields": {
+            "clase": 5,
+            "alumno": 5,
+            "nota": "5.4",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 76,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "nota": "4.3",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 77,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "nota": "4.7",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 78,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "nota": "4.4",
+            "ponderacion": "40.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 79,
+        "fields": {
+            "clase": 2,
+            "alumno": 6,
+            "nota": "4.3",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 80,
+        "fields": {
+            "clase": 2,
+            "alumno": 6,
+            "nota": "4.2",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 81,
+        "fields": {
+            "clase": 2,
+            "alumno": 6,
+            "nota": "3.9",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 82,
+        "fields": {
+            "clase": 3,
+            "alumno": 6,
+            "nota": "3.6",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 83,
+        "fields": {
+            "clase": 3,
+            "alumno": 6,
+            "nota": "4.9",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 84,
+        "fields": {
+            "clase": 3,
+            "alumno": 6,
+            "nota": "4.0",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 85,
+        "fields": {
+            "clase": 4,
+            "alumno": 6,
+            "nota": "4.6",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 86,
+        "fields": {
+            "clase": 4,
+            "alumno": 6,
+            "nota": "4.8",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 87,
+        "fields": {
+            "clase": 4,
+            "alumno": 6,
+            "nota": "3.8",
+            "ponderacion": "40.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 88,
+        "fields": {
+            "clase": 5,
+            "alumno": 6,
+            "nota": "4.9",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 89,
+        "fields": {
+            "clase": 5,
+            "alumno": 6,
+            "nota": "4.7",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 90,
+        "fields": {
+            "clase": 5,
+            "alumno": 6,
+            "nota": "4.5",
+            "ponderacion": "40.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 91,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "nota": "6.9",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 92,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "nota": "6.4",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 93,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "nota": "5.2",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 94,
+        "fields": {
+            "clase": 7,
+            "alumno": 7,
+            "nota": "6.5",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 95,
+        "fields": {
+            "clase": 7,
+            "alumno": 7,
+            "nota": "5.9",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 96,
+        "fields": {
+            "clase": 7,
+            "alumno": 7,
+            "nota": "5.0",
+            "ponderacion": "40.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 97,
+        "fields": {
+            "clase": 8,
+            "alumno": 7,
+            "nota": "5.1",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 98,
+        "fields": {
+            "clase": 8,
+            "alumno": 7,
+            "nota": "6.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 99,
+        "fields": {
+            "clase": 8,
+            "alumno": 7,
+            "nota": "6.8",
+            "ponderacion": "40.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 100,
+        "fields": {
+            "clase": 9,
+            "alumno": 7,
+            "nota": "7.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 101,
+        "fields": {
+            "clase": 9,
+            "alumno": 7,
+            "nota": "5.6",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 102,
+        "fields": {
+            "clase": 9,
+            "alumno": 7,
+            "nota": "6.5",
+            "ponderacion": "40.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 103,
+        "fields": {
+            "clase": 10,
+            "alumno": 7,
+            "nota": "6.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 104,
+        "fields": {
+            "clase": 10,
+            "alumno": 7,
+            "nota": "6.7",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 105,
+        "fields": {
+            "clase": 10,
+            "alumno": 7,
+            "nota": "5.1",
+            "ponderacion": "40.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 106,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "nota": "3.4",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 107,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "nota": "3.1",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 108,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "nota": "4.0",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 109,
+        "fields": {
+            "clase": 7,
+            "alumno": 8,
+            "nota": "3.7",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 110,
+        "fields": {
+            "clase": 7,
+            "alumno": 8,
+            "nota": "2.4",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 111,
+        "fields": {
+            "clase": 7,
+            "alumno": 8,
+            "nota": "3.7",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 112,
+        "fields": {
+            "clase": 8,
+            "alumno": 8,
+            "nota": "3.0",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 113,
+        "fields": {
+            "clase": 8,
+            "alumno": 8,
+            "nota": "3.0",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 114,
+        "fields": {
+            "clase": 8,
+            "alumno": 8,
+            "nota": "2.9",
+            "ponderacion": "40.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 115,
+        "fields": {
+            "clase": 9,
+            "alumno": 8,
+            "nota": "3.9",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 116,
+        "fields": {
+            "clase": 9,
+            "alumno": 8,
+            "nota": "2.7",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 117,
+        "fields": {
+            "clase": 9,
+            "alumno": 8,
+            "nota": "3.7",
+            "ponderacion": "40.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 118,
+        "fields": {
+            "clase": 10,
+            "alumno": 8,
+            "nota": "2.9",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 119,
+        "fields": {
+            "clase": 10,
+            "alumno": 8,
+            "nota": "3.5",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 120,
+        "fields": {
+            "clase": 10,
+            "alumno": 8,
+            "nota": "3.0",
+            "ponderacion": "40.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 121,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "nota": "6.8",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 122,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "nota": "5.8",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 123,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "nota": "6.0",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 124,
+        "fields": {
+            "clase": 7,
+            "alumno": 9,
+            "nota": "6.5",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 125,
+        "fields": {
+            "clase": 7,
+            "alumno": 9,
+            "nota": "6.9",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 126,
+        "fields": {
+            "clase": 7,
+            "alumno": 9,
+            "nota": "6.5",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 127,
+        "fields": {
+            "clase": 8,
+            "alumno": 9,
+            "nota": "7.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 128,
+        "fields": {
+            "clase": 8,
+            "alumno": 9,
+            "nota": "6.9",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 129,
+        "fields": {
+            "clase": 8,
+            "alumno": 9,
+            "nota": "7.0",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 130,
+        "fields": {
+            "clase": 9,
+            "alumno": 9,
+            "nota": "6.0",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 131,
+        "fields": {
+            "clase": 9,
+            "alumno": 9,
+            "nota": "6.5",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 132,
+        "fields": {
+            "clase": 9,
+            "alumno": 9,
+            "nota": "7.0",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 133,
+        "fields": {
+            "clase": 10,
+            "alumno": 9,
+            "nota": "7.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 134,
+        "fields": {
+            "clase": 10,
+            "alumno": 9,
+            "nota": "6.7",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 135,
+        "fields": {
+            "clase": 10,
+            "alumno": 9,
+            "nota": "7.0",
+            "ponderacion": "40.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 136,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "nota": "5.3",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 137,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "nota": "5.6",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 138,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "nota": "5.3",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 139,
+        "fields": {
+            "clase": 7,
+            "alumno": 10,
+            "nota": "5.8",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 140,
+        "fields": {
+            "clase": 7,
+            "alumno": 10,
+            "nota": "5.6",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 141,
+        "fields": {
+            "clase": 7,
+            "alumno": 10,
+            "nota": "4.9",
+            "ponderacion": "40.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 142,
+        "fields": {
+            "clase": 8,
+            "alumno": 10,
+            "nota": "5.8",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 143,
+        "fields": {
+            "clase": 8,
+            "alumno": 10,
+            "nota": "5.1",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 144,
+        "fields": {
+            "clase": 8,
+            "alumno": 10,
+            "nota": "5.0",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 145,
+        "fields": {
+            "clase": 9,
+            "alumno": 10,
+            "nota": "4.6",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 146,
+        "fields": {
+            "clase": 9,
+            "alumno": 10,
+            "nota": "4.7",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 147,
+        "fields": {
+            "clase": 9,
+            "alumno": 10,
+            "nota": "5.8",
+            "ponderacion": "40.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 148,
+        "fields": {
+            "clase": 10,
+            "alumno": 10,
+            "nota": "4.6",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 149,
+        "fields": {
+            "clase": 10,
+            "alumno": 10,
+            "nota": "4.6",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 150,
+        "fields": {
+            "clase": 10,
+            "alumno": 10,
+            "nota": "3.9",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 151,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "nota": "5.6",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 152,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "nota": "7.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 153,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "nota": "6.1",
+            "ponderacion": "40.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 154,
+        "fields": {
+            "clase": 7,
+            "alumno": 11,
+            "nota": "6.7",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 155,
+        "fields": {
+            "clase": 7,
+            "alumno": 11,
+            "nota": "6.3",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 156,
+        "fields": {
+            "clase": 7,
+            "alumno": 11,
+            "nota": "5.9",
+            "ponderacion": "40.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 157,
+        "fields": {
+            "clase": 8,
+            "alumno": 11,
+            "nota": "5.7",
+            "ponderacion": "30.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 158,
+        "fields": {
+            "clase": 8,
+            "alumno": 11,
+            "nota": "7.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 159,
+        "fields": {
+            "clase": 8,
+            "alumno": 11,
+            "nota": "6.3",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 160,
+        "fields": {
+            "clase": 9,
+            "alumno": 11,
+            "nota": "6.4",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 161,
+        "fields": {
+            "clase": 9,
+            "alumno": 11,
+            "nota": "6.0",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 162,
+        "fields": {
+            "clase": 9,
+            "alumno": 11,
+            "nota": "6.0",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 163,
+        "fields": {
+            "clase": 10,
+            "alumno": 11,
+            "nota": "5.7",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 164,
+        "fields": {
+            "clase": 10,
+            "alumno": 11,
+            "nota": "6.9",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 165,
+        "fields": {
+            "clase": 10,
+            "alumno": 11,
+            "nota": "7.0",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 166,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "nota": "5.6",
+            "ponderacion": "30.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 167,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "nota": "5.5",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 168,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "nota": "6.0",
+            "ponderacion": "40.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 169,
+        "fields": {
+            "clase": 7,
+            "alumno": 12,
+            "nota": "6.0",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 170,
+        "fields": {
+            "clase": 7,
+            "alumno": 12,
+            "nota": "6.0",
+            "ponderacion": "30.00",
+            "observacion": "Entregó atrasado",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 171,
+        "fields": {
+            "clase": 7,
+            "alumno": 12,
+            "nota": "6.3",
+            "ponderacion": "40.00",
+            "observacion": "Excelente trabajo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 172,
+        "fields": {
+            "clase": 8,
+            "alumno": 12,
+            "nota": "5.1",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 173,
+        "fields": {
+            "clase": 8,
+            "alumno": 12,
+            "nota": "5.5",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 174,
+        "fields": {
+            "clase": 8,
+            "alumno": 12,
+            "nota": "5.0",
+            "ponderacion": "40.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 175,
+        "fields": {
+            "clase": 9,
+            "alumno": 12,
+            "nota": "4.8",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 176,
+        "fields": {
+            "clase": 9,
+            "alumno": 12,
+            "nota": "5.3",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 177,
+        "fields": {
+            "clase": 9,
+            "alumno": 12,
+            "nota": "6.2",
+            "ponderacion": "40.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 178,
+        "fields": {
+            "clase": 10,
+            "alumno": 12,
+            "nota": "5.1",
+            "ponderacion": "30.00",
+            "observacion": null,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 179,
+        "fields": {
+            "clase": 10,
+            "alumno": 12,
+            "nota": "4.6",
+            "ponderacion": "30.00",
+            "observacion": "Muy participativo",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.calificacion",
+        "pk": 180,
+        "fields": {
+            "clase": 10,
+            "alumno": 12,
+            "nota": "5.1",
+            "ponderacion": "40.00",
+            "observacion": "Debe mejorar",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 1,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "fecha": "2026-08-03",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 2,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 3,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "fecha": "2026-08-05",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 4,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 5,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "fecha": "2026-08-07",
+            "presente": false,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 6,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "fecha": "2026-08-10",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 7,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 8,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "fecha": "2026-08-12",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 9,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "fecha": "2026-08-13",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 10,
+        "fields": {
+            "clase": 1,
+            "alumno": 1,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 11,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "fecha": "2026-08-03",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 12,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 13,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "fecha": "2026-08-05",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 14,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 15,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "fecha": "2026-08-07",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 16,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "fecha": "2026-08-10",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 17,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 18,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 19,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "fecha": "2026-08-13",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 20,
+        "fields": {
+            "clase": 1,
+            "alumno": 2,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 21,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "fecha": "2026-08-03",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 22,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 23,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "fecha": "2026-08-05",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 24,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 25,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "fecha": "2026-08-07",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 26,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "fecha": "2026-08-10",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 27,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 28,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 29,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "fecha": "2026-08-13",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 30,
+        "fields": {
+            "clase": 1,
+            "alumno": 3,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 31,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "fecha": "2026-08-03",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 32,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 33,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "fecha": "2026-08-05",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 34,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 35,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "fecha": "2026-08-07",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 36,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "fecha": "2026-08-10",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 37,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 38,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 39,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "fecha": "2026-08-13",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 40,
+        "fields": {
+            "clase": 1,
+            "alumno": 4,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 41,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "fecha": "2026-08-03",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 42,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 43,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "fecha": "2026-08-05",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 44,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "fecha": "2026-08-06",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 45,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "fecha": "2026-08-07",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 46,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "fecha": "2026-08-10",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 47,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 48,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 49,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "fecha": "2026-08-13",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 50,
+        "fields": {
+            "clase": 1,
+            "alumno": 5,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 51,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "fecha": "2026-08-03",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 52,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 53,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "fecha": "2026-08-05",
+            "presente": false,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 54,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 55,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "fecha": "2026-08-07",
+            "presente": false,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 56,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "fecha": "2026-08-10",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 57,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "fecha": "2026-08-11",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 58,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 59,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "fecha": "2026-08-13",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 60,
+        "fields": {
+            "clase": 1,
+            "alumno": 6,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 61,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "fecha": "2026-08-03",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 62,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 63,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "fecha": "2026-08-05",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 64,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 65,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "fecha": "2026-08-07",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 66,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "fecha": "2026-08-10",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 67,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 68,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 69,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "fecha": "2026-08-13",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 70,
+        "fields": {
+            "clase": 6,
+            "alumno": 7,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 71,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "fecha": "2026-08-03",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 72,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 73,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "fecha": "2026-08-05",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 74,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 75,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "fecha": "2026-08-07",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 76,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "fecha": "2026-08-10",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 77,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 78,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 79,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "fecha": "2026-08-13",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 80,
+        "fields": {
+            "clase": 6,
+            "alumno": 8,
+            "fecha": "2026-08-14",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 81,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "fecha": "2026-08-03",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 82,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "fecha": "2026-08-04",
+            "presente": false,
+            "justificado": true,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 83,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "fecha": "2026-08-05",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 84,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 85,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "fecha": "2026-08-07",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 86,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "fecha": "2026-08-10",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 87,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 88,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 89,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "fecha": "2026-08-13",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 90,
+        "fields": {
+            "clase": 6,
+            "alumno": 9,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 91,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "fecha": "2026-08-03",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 92,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 93,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "fecha": "2026-08-05",
+            "presente": false,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 94,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 95,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "fecha": "2026-08-07",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 96,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "fecha": "2026-08-10",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 97,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 98,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 99,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "fecha": "2026-08-13",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 100,
+        "fields": {
+            "clase": 6,
+            "alumno": 10,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 101,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "fecha": "2026-08-03",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 102,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 103,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "fecha": "2026-08-05",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 104,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 105,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "fecha": "2026-08-07",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 106,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "fecha": "2026-08-10",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 107,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 108,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 109,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "fecha": "2026-08-13",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 110,
+        "fields": {
+            "clase": 6,
+            "alumno": 11,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 111,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "fecha": "2026-08-03",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 112,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "fecha": "2026-08-04",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 113,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "fecha": "2026-08-05",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 114,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "fecha": "2026-08-06",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 115,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "fecha": "2026-08-07",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 116,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "fecha": "2026-08-10",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 117,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "fecha": "2026-08-11",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 118,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "fecha": "2026-08-12",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 119,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "fecha": "2026-08-13",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.asistencia",
+        "pk": 120,
+        "fields": {
+            "clase": 6,
+            "alumno": 12,
+            "fecha": "2026-08-14",
+            "presente": true,
+            "justificado": false,
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.registroauditoria",
+        "pk": 1,
+        "fields": {
+            "usuario_responsable": 101,
+            "entidad_afectada": "Matricula",
+            "id_registro": 12,
+            "tipo_evento": "ACTUALIZAR",
+            "descripcion": "Matrícula de Ugandan Knuckles cambiada a RETIRADA: \"do you know da wae\" a otro colegio.",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.registroauditoria",
+        "pk": 2,
+        "fields": {
+            "usuario_responsable": 101,
+            "entidad_afectada": "Calificacion",
+            "id_registro": 1,
+            "tipo_evento": "CREAR",
+            "descripcion": "Carga inicial de notas del segundo semestre.",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.registroauditoria",
+        "pk": 3,
+        "fields": {
+            "usuario_responsable": 101,
+            "entidad_afectada": "Curso",
+            "id_registro": 1,
+            "tipo_evento": "CREAR",
+            "descripcion": "Creación del 7° Básico A con Harold como profesor jefe.",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    },
+    {
+        "model": "escuela.registroauditoria",
+        "pk": 4,
+        "fields": {
+            "usuario_responsable": 101,
+            "entidad_afectada": "Asistencia",
+            "id_registro": 1,
+            "tipo_evento": "CREAR",
+            "descripcion": "Registro de asistencia de agosto. Todo bien. This is fine. 🔥",
+            "created_at": "2026-03-01T08:00:00-03:00",
+            "updated_at": "2026-03-01T08:00:00-03:00"
+        }
+    }
+]

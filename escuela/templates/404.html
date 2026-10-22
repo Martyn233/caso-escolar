@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - TU SWAG ES DEMASIADO ELEVADO</title>
+{% extends 'base.html' %}
+
+{% block title %}404 - TU SWAG ES DEMASIADO ELEVADO{% endblock %}
+
+{% block estilos %}
     <style>
         * {
             margin: 0;
@@ -100,9 +99,9 @@
             }
         }
     </style>
-</head>
-<body>
+{% endblock %}
 
+{% block content %}
     <div class="container">
         <div class="error-code">404</div>
         <h1 class="error-title">TE FUISTE EN LA VOLA AUN NO HAGO ESTO CHILL</h1>
@@ -111,6 +110,4 @@
         </p>
         <a href="/" class="home-btn">VUELVE DE DONDE VINISTE VIEJO</a>
     </div>
-
-</body>
-</html>
+{% endblock %}
