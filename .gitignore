@@ -16,3 +16,6 @@ staticfiles/
 
 # Editor
 .vscode/
+
+# Script SQL con credenciales
+db.sql
