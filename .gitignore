@@ -4,7 +4,7 @@ venv/
 env/
 
 # Datos sensibles (NUNCA subir)
-.env
+#  .env
 
 # Python
 __pycache__/
@@ -18,4 +18,4 @@ staticfiles/
 .vscode/
 
 # Script SQL con credenciales
-db.sql
+#  db.sql
